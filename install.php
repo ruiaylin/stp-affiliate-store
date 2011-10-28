@@ -97,8 +97,8 @@ if($success) {
 	echo "\t\$db_name = '$db_name';		// Name of the database on the server\n\t\$db_prefix = '$db_prefix';    // Prefix for table names\n";
 	echo "\n\t\$admin_username = 'admin'; // Username to log into the admin system.\n\t\$admin_password = 'admin'; // Password to log into the admin system\n?&gt;</textarea>";
 	
-	echo "<br><br>You will now need to download the Affiliate Datafeed from <a href='http://www.sierratradingpostaffiliates.com/product-datafeeds.htm'>";
-	echo "http://www.sierratradingpostaffiliates.com/product-datafeeds.htm</a> if you haven't already.  You can put it in any directory, but you will need to change the location in <em>parse_feed.php</em>.";
+	echo "<br><br>You will now need to download the Affiliate Datafeed from <a href='http://www.sierratradingpostaffiliates.com/resources/sierra-trading-post-datafeeds'>";
+	echo "http://www.sierratradingpostaffiliates.com/resources/sierra-trading-post-datafeeds</a> if you haven't already.  You can put it in any directory, but you will need to change the location in <em>parse_feed.php</em>.";
 	echo "You will need to download the datafeed on a regular basis (daily is recommended) and run parse_feed.php each time after you download it.";
 }
 else {	

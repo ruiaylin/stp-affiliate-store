@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+
+ExpiresActive On
+#ExpiresByType image/gif A604800
+ExpiresByType image/jpeg A604800
+#ExpiresByType image/png A604800
+
